@@ -42,9 +42,9 @@ export function Layout({ children }) {
                             opacity: 0.6,
                         }}
                     >
-                        <a href="https://tympanus.net/codrops/?p=96765">Article</a>
-                        <a href="https://github.com/DGFX/codrops-kinetic-images">Code</a>
-                        <a href="https://tympanus.net/codrops/demos/">All demos</a>
+                        <a href="">Empowering Artists.</a>
+                        <a href="">Connecting cultures.</a>
+                        <a href="">.</a>
                     </nav>
                     <nav
                         style={{
@@ -55,11 +55,9 @@ export function Layout({ children }) {
                             opacity: 0.6,
                         }}
                     >
-                        <a href="https://tympanus.net/codrops/demos/?tag=3d">#3d</a>
-                        <a href="https://tympanus.net/codrops/demos/?tag=three-js">#three.js</a>
-                        <a href="https://tympanus.net/codrops/demos/?tag=react-three-fiber">
-                            #react-three-fiber
-                        </a>
+                        <a href="">#Revolutionizing</a>
+                        <a href="">#Music</a>
+                        <a href="">.</a>
                     </nav>
                 </div>
             </Header>
