@@ -7,4 +7,30 @@
     font-weight: 500;
     mix-blend-mode: normal;
     color: white;
+
+
+    /* Desktop: Dark text on white background */
+  color: #000000;  // or your preferred dark color
+  mix-blend-mode: difference;  // or 'multiply' - this helps with contrast
+  
+  /* Add text shadow for desktop readability */
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  
+  /* Mobile: White text that stays visible over spiral */
+  @media (max-width: 768px) {
+    color: white !important;
+    mix-blend-mode: difference !important;
+    
+    /* Strong shadow for contrast against spiral */
+    text-shadow: 
+      0 0 20px rgba(0, 0, 0, 1),
+      0 0 40px rgba(0, 0, 0, 0.9),
+      0 2px 4px rgba(0, 0, 0, 1) !important;
+    
+    /* Optional: Add background for better readability */
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 8px;
+    backdrop-filter: blur(8px);
+  }
 }
