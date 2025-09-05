@@ -32,7 +32,7 @@ export function Layout({ children }) {
                         flexDirection: 'column',
                     }}
                 >
-                    <h1>Kinetic Images</h1>
+                    <h1>byLYGHT</h1>
                     <nav
                         style={{
                             display: 'flex',
