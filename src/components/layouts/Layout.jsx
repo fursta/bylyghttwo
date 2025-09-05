@@ -44,7 +44,7 @@ export function Layout({ children }) {
                     >
                         <a href="">Empowering Artists.</a>
                         <a href="">Connecting cultures.</a>
-                        <a href="">.</a>
+                        <a href=""></a>
                     </nav>
                     <nav
                         style={{
@@ -57,7 +57,7 @@ export function Layout({ children }) {
                     >
                         <a href="">#Revolutionizing</a>
                         <a href="">#Music</a>
-                        <a href="">.</a>
+                        <a href=""></a>
                     </nav>
                 </div>
             </Header>
@@ -76,13 +76,13 @@ export function Layout({ children }) {
             />
             <Footer>
                 <Link href="./" className={pathname === '/' ? 'active' : ''}>
-                    Tower
+                   
                 </Link>
                 <Link href="./paper" className={pathname === '/paper' ? 'active' : ''}>
-                    Paper
+                    
                 </Link>
                 <Link href="./spiral" className={pathname === '/spiral' ? 'active' : ''}>
-                    Spiral
+                   
                 </Link>
             </Footer>
         </div>
