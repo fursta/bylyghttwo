@@ -1,6 +1,6 @@
 export const metadata = {
-    title: 'Codrops - Kinetic Images',
-    description: 'Made by Dominik Fojcik',
+    title: 'byLYGHT',
+    description: 'Empowering Artists, Connecting Cultures, Revolutionizing Music',
 };
 
 export default metadata;
